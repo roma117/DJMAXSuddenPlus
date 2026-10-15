@@ -4,7 +4,7 @@ DJMAX RESPECT V の画面上部にレーンカバーを重ねる Windows 用ツ�
 
 ## 起動
 
-`DjmaxSuddenPlus-1.1.0.exe` を実行してください。初回は設定画面とカバーが表示されます。ゲームは「仮想フルスクリーン」または「ボーダーレスウィンドウ」に設定してください。真の排他フルスクリーンでは、Windows の通常の最前面ウィンドウをゲーム画面の上に描画できません。
+`DjmaxSuddenPlus-1.1.1.exe` を実行してください。初回は設定画面とカバーが表示されます。ゲームは「仮想フルスクリーン」または「ボーダーレスウィンドウ」に設定してください。真の排他フルスクリーンでは、Windows の通常の最前面ウィンドウをゲーム画面の上に描画できません。
 
 ## 使い方
 
@@ -33,6 +33,6 @@ DJMAX RESPECT V の画面上部にレーンカバーを重ねる Windows 用ツ�
 
 ## 再ビルド
 
-ソースを変更した場合は `build.cmd` を実行してください。Windows の .NET Framework C# コンパイラを使用します。管理者権限は不要です。
+ソースを変更した場合は `build.cmd` を実行してください。Windows の .NET Framework C# コンパイラを使用します。管理者権限は不要です。EXE のアイコンには `DjmaxSuddenPlus.ico` を組み込みます。編集用の元画像は `DjmaxSuddenPlus.svg` です。
 
 参考: [DJMAX 公式アップデート（ハイスピード 1.0–9.0）](https://store.steampowered.com/news/posts/?appids=960170&enddate=1596703450&feed=steam_community_announcements)、[Microsoft Q&A：排他フルスクリーンとオーバーレイ](https://learn.microsoft.com/en-us/answers/questions/5514066/how-would-i-put-an-application-like-a-clock-over-a/)、[IIDX 緑数字の表示時間の説明](https://keionkakimasen.hatenadiary.com/entry/2022/11/12/190000)

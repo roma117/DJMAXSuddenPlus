@@ -6,6 +6,6 @@ if not exist "%CSC%" (
   echo .NET Framework compiler not found.
   exit /b 1
 )
-"%CSC%" /nologo /target:winexe /optimize+ /out:"%~dp0DjmaxSuddenPlus-1.1.0.exe" /win32manifest:"%~dp0app.manifest" /r:System.Windows.Forms.dll /r:System.Drawing.dll "%~dp0DjmaxSuddenPlus.cs"
+"%CSC%" /nologo /target:winexe /optimize+ /out:"%~dp0DjmaxSuddenPlus-1.1.1.exe" /win32icon:"%~dp0DjmaxSuddenPlus.ico" /win32manifest:"%~dp0app.manifest" /r:System.Windows.Forms.dll /r:System.Drawing.dll "%~dp0DjmaxSuddenPlus.cs"
 if errorlevel 1 exit /b 1
-echo Built: %~dp0DjmaxSuddenPlus-1.1.0.exe
+echo Built: %~dp0DjmaxSuddenPlus-1.1.1.exe
